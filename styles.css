@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#titulo-pizzeria {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0;
+    color: #ff6347;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+.lista-carrito {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 1em;
+    max-width: 300px;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
